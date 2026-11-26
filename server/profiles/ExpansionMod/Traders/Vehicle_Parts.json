@@ -13,12 +13,15 @@
     "DisplayCurrencyName":  "",
     "UseCategoryOrder":  0,
     "Categories":  [
-                       "Vehicle_Parts"
+
                    ],
     "Items":  {
                   "tirerepairkit":  1,
+                  "sparkplug":  1,
+                  "glowplug":  1,
                   "carbattery":  1,
+                  "truckbattery":  1,
                   "canistergasoline":  1,
-                  "truckbattery":  1
+                  "carradiator":  1
               }
 }
