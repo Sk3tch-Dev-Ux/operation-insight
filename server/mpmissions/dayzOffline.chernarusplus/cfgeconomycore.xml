@@ -37,4 +37,18 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<default name="save_events_startup" value="true"/>
 		<default name="save_types_startup" value="true"/>
 	</defaults>
+
+	<!-- Modded CE types (Vanilla+ lean copies under ce_mods/) -->
+	<ce folder="ce_mods">
+		<file name="dogtags_types.xml" type="types" />
+		<file name="fliptransport_types.xml" type="types" />
+		<file name="mmg_storage_types.xml" type="types" />
+		<file name="bvb_modular_types.xml" type="types" />
+		<file name="bvb_fortification_types.xml" type="types" />
+		<file name="tactical_flava_types.xml" type="types" />
+		<file name="tactical_flava_new_types.xml" type="types" />
+		<file name="tactical_flava_spawnabletypes.xml" type="spawnabletypes" />
+		<file name="mounts_sights_types.xml" type="types" />
+		<file name="mounts_sights_spawnabletypes.xml" type="spawnabletypes" />
+	</ce>
 </economycore>

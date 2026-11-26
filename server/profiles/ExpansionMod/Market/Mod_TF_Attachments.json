@@ -1,0 +1,250 @@
+{
+    "m_Version":  12,
+    "DisplayName":  "Tactical Attachments",
+    "Icon":  "Gun",
+    "Color":  "FBFCFEFF",
+    "IsExchange":  0,
+    "InitStockPercent":  35,
+    "Items":  [
+                  {
+                      "ClassName":  "TF_EOTechXPSOpticUp_Black",
+                      "MaxPriceThreshold":  1800,
+                      "MinPriceThreshold":  1080,
+                      "SellPricePercent":  -1,
+                      "MaxStockThreshold":  4,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "TF_EOTechXPSOpticDown_Black",
+                      "MaxPriceThreshold":  1800,
+                      "MinPriceThreshold":  1080,
+                      "SellPricePercent":  -1,
+                      "MaxStockThreshold":  4,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "TF_DeltaPointOptic_Black",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  720,
+                      "SellPricePercent":  -1,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "TF_HAMROptic_Black",
+                      "MaxPriceThreshold":  2200,
+                      "MinPriceThreshold":  1320,
+                      "SellPricePercent":  -1,
+                      "MaxStockThreshold":  3,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "TF_ElcanSpecterDROptic_Black",
+                      "MaxPriceThreshold":  2800,
+                      "MinPriceThreshold":  1680,
+                      "SellPricePercent":  -1,
+                      "MaxStockThreshold":  3,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "TF_OKP7Optic",
+                      "MaxPriceThreshold":  1400,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  -1,
+                      "MaxStockThreshold":  4,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "TF_PK122_ValdayOptic",
+                      "MaxPriceThreshold":  1600,
+                      "MinPriceThreshold":  960,
+                      "SellPricePercent":  -1,
+                      "MaxStockThreshold":  3,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "TF_AFG_RIS_Grip_Black",
+                      "MaxPriceThreshold":  450,
+                      "MinPriceThreshold":  270,
+                      "SellPricePercent":  -1,
+                      "MaxStockThreshold":  6,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "TF_RVG_RIS_Grip_Black",
+                      "MaxPriceThreshold":  450,
+                      "MinPriceThreshold":  270,
+                      "SellPricePercent":  -1,
+                      "MaxStockThreshold":  6,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "TF_SAW_RIS_Grip_Black",
+                      "MaxPriceThreshold":  500,
+                      "MinPriceThreshold":  300,
+                      "SellPricePercent":  -1,
+                      "MaxStockThreshold":  5,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "TF_M4_MOEPistolGrip_Black",
+                      "MaxPriceThreshold":  350,
+                      "MinPriceThreshold":  210,
+                      "SellPricePercent":  -1,
+                      "MaxStockThreshold":  6,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "TF_AK_MOEPistolGrip_Black",
+                      "MaxPriceThreshold":  350,
+                      "MinPriceThreshold":  210,
+                      "SellPricePercent":  -1,
+                      "MaxStockThreshold":  6,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "TF_M4CraneBttstck",
+                      "MaxPriceThreshold":  700,
+                      "MinPriceThreshold":  420,
+                      "SellPricePercent":  -1,
+                      "MaxStockThreshold":  4,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "TF_AK_MagpulZhukovBttstck",
+                      "MaxPriceThreshold":  900,
+                      "MinPriceThreshold":  540,
+                      "SellPricePercent":  -1,
+                      "MaxStockThreshold":  3,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "TF_RifleSling_Black",
+                      "MaxPriceThreshold":  250,
+                      "MinPriceThreshold":  150,
+                      "SellPricePercent":  -1,
+                      "MaxStockThreshold":  8,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "TF_RifleSling_OD",
+                      "MaxPriceThreshold":  250,
+                      "MinPriceThreshold":  150,
+                      "SellPricePercent":  -1,
+                      "MaxStockThreshold":  6,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  }
+              ]
+}

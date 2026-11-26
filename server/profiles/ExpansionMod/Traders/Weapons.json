@@ -31,7 +31,9 @@
                        "Handguards",
                        "Bayonets",
                        "Batteries",
-                       "Lights"
+                       "Lights",
+                       "Mod_TF_Attachments",
+                       "Mod_Mounts_Sights"
                    ],
     "Items":  {
 

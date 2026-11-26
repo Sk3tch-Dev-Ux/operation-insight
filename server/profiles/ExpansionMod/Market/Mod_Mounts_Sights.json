@@ -1,0 +1,130 @@
+{
+    "m_Version":  12,
+    "DisplayName":  "Mounts \u0026 Sights",
+    "Icon":  "Binoculars",
+    "Color":  "FBFCFEFF",
+    "IsExchange":  0,
+    "InitStockPercent":  35,
+    "Items":  [
+                  {
+                      "ClassName":  "Akol_Pilad",
+                      "MaxPriceThreshold":  1600,
+                      "MinPriceThreshold":  960,
+                      "SellPricePercent":  -1,
+                      "MaxStockThreshold":  4,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "Akol_Exps",
+                      "MaxPriceThreshold":  1800,
+                      "MinPriceThreshold":  1080,
+                      "SellPricePercent":  -1,
+                      "MaxStockThreshold":  4,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "Akol_Exps_Tan",
+                      "MaxPriceThreshold":  1800,
+                      "MinPriceThreshold":  1080,
+                      "SellPricePercent":  -1,
+                      "MaxStockThreshold":  3,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "Akol_Magnifier",
+                      "MaxPriceThreshold":  1400,
+                      "MinPriceThreshold":  840,
+                      "SellPricePercent":  -1,
+                      "MaxStockThreshold":  3,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "Akol_Specter6x",
+                      "MaxPriceThreshold":  2600,
+                      "MinPriceThreshold":  1560,
+                      "SellPricePercent":  -1,
+                      "MaxStockThreshold":  2,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "Akol_MRDSMount",
+                      "MaxPriceThreshold":  900,
+                      "MinPriceThreshold":  540,
+                      "SellPricePercent":  -1,
+                      "MaxStockThreshold":  4,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "Akol_Okp77",
+                      "MaxPriceThreshold":  1200,
+                      "MinPriceThreshold":  720,
+                      "SellPricePercent":  -1,
+                      "MaxStockThreshold":  4,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  },
+                  {
+                      "ClassName":  "Akol_RailHuntingOptic",
+                      "MaxPriceThreshold":  1100,
+                      "MinPriceThreshold":  660,
+                      "SellPricePercent":  -1,
+                      "MaxStockThreshold":  4,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  }
+              ]
+}

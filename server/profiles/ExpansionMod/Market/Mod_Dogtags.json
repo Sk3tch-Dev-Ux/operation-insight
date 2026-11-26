@@ -1,0 +1,25 @@
+{
+    "m_Version":  12,
+    "DisplayName":  "Dogtags",
+    "Icon":  "Persona",
+    "Color":  "FBFCFEFF",
+    "IsExchange":  0,
+    "InitStockPercent":  35,
+    "Items":  [
+                  {
+                      "ClassName":  "DogtagCase",
+                      "MaxPriceThreshold":  400,
+                      "MinPriceThreshold":  240,
+                      "SellPricePercent":  -1,
+                      "MaxStockThreshold":  8,
+                      "MinStockThreshold":  1,
+                      "QuantityPercent":  -1,
+                      "SpawnAttachments":  [
+
+                                           ],
+                      "Variants":  [
+
+                                   ]
+                  }
+              ]
+}

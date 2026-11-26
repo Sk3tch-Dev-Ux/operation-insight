@@ -1,6 +1,6 @@
 {
     "m_Version":  13,
-    "DisplayName":  "Building & Tools",
+    "DisplayName":  "Building \u0026 Tools",
     "MinRequiredReputation":  0,
     "MaxRequiredReputation":  2147483647,
     "RequiredFaction":  "",
@@ -20,7 +20,8 @@
                        "Tents",
                        "Kits",
                        "Navigation",
-                       "Lights"
+                       "Lights",
+                       "Mod_Building_Kits"
                    ],
     "Items":  {
 

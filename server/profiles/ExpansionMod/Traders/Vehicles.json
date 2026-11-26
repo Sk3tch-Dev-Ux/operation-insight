@@ -14,7 +14,8 @@
     "UseCategoryOrder":  0,
     "Categories":  [
                        "Cars",
-                       "Vehicle_Parts"
+                       "Vehicle_Parts",
+                       "Mod_Vehicle_Extras"
                    ],
     "Items":  {
                   "tirerepairkit":  1,
