@@ -4,11 +4,11 @@
     "Type": 1,
     "Title": "The Post Still Stands",
     "Descriptions": [
-        "Insight kept one market alive when the rest of Chernarus went quiet. Find the Trading Post, walk the yard, and come back. If scavengers burned it, we need to know. If it still stands, remember the path — that is where you sell junk and buy another day.",
-        "The Trading Post marker is up. Get eyes on it.",
-        "Still standing. Good. Use it when you have to — food, meds, ammo toppers, repairs. Do not expect a gun store. Raid weekends still apply to bases, not the post safezone."
+        "The Post is home now, but Green Mountain still matters. Scout the old Insight Cell site, confirm it is cold or compromised, and come back to Mira. We need to know if anyone is still using that hill.",
+        "Green Mountain marker is up. Get eyes on the old cell, then return.",
+        "Cold or contested — either way, we know. Stick to the Post for trade. Raid weekends still apply to bases, not the post safezone."
     ],
-    "ObjectiveText": "Reach the Insight Trading Post and report back to Mira.",
+    "ObjectiveText": "Scout the old Insight Cell at Green Mountain and report back to Mira.",
     "FollowUpQuest": -1,
     "Repeatable": 0,
     "IsDailyQuest": 0,

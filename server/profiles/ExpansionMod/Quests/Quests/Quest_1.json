@@ -4,11 +4,11 @@
     "Type": 1,
     "Title": "Dead Drop",
     "Descriptions": [
-        "You look like you can still walk a straight line. Good enough. Insight Cell is trying to keep a few relays alive while the rest of Chernarus eats itself. Take this sealed note to Tomas Kovic northwest of here — do not open it. If he is still breathing, he will know what to do.",
-        "The note is not a souvenir. Find Tomas and hand it over.",
+        "You look like you can still walk a straight line. Good enough. Insight Cell is trying to keep a few relays alive while the rest of Chernarus eats itself. Take this sealed note to Tomas Kovic on the hunting pad across the yard — do not open it. If he is still breathing, he will know what to do.",
+        "The note is not a souvenir. Find Tomas at the hunting pad and hand it over.",
         "You did the simple thing correctly. That is rarer than you think."
     ],
-    "ObjectiveText": "Deliver the sealed note to Tomas Kovic.",
+    "ObjectiveText": "Deliver the sealed note to Tomas Kovic at the hunting pad.",
     "FollowUpQuest": 2,
     "Repeatable": 0,
     "IsDailyQuest": 0,

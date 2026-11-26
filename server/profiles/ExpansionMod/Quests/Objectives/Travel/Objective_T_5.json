@@ -2,16 +2,16 @@
     "ConfigVersion": 28,
     "ID": 5,
     "ObjectiveType": 3,
-    "ObjectiveText": "Reach the Insight Trading Post",
+    "ObjectiveText": "Scout the old Insight Cell site at Green Mountain",
     "TimeLimit": -1,
     "Active": 1,
     "Position": [
-        7255.0,
-        335.0,
-        8255.0
+        3706.27,
+        402.01,
+        5987.08
     ],
-    "MaxDistance": 40.0,
-    "MarkerName": "Insight Trading Post",
+    "MaxDistance": 50.0,
+    "MarkerName": "Old Insight Cell",
     "ShowDistance": 1,
     "TriggerOnEnter": 1,
     "TriggerOnExit": 0

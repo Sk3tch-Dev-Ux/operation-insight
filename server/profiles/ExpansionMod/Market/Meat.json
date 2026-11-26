@@ -1,7 +1,7 @@
 {
     "m_Version": 12,
     "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_MEAT",
-    "Icon": "Deliver",
+    "Icon": "Cooked Meat 1",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
     "InitStockPercent": 75.0,

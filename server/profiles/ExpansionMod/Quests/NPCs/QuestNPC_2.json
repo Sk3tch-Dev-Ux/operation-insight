@@ -3,22 +3,22 @@
     "ID": 2,
     "ClassName": "ExpansionQuestNPCAIElias",
     "Position": [
-        3192.199951171875,
-        296.7070007324219,
-        6093.31005859375
+        7251.88,
+        338.748,
+        8230.65
     ],
     "Orientation": [
-        145.0,
+        64.6164,
         0.0,
         0.0
     ],
     "NPCName": "Tomas Kovic",
-    "DefaultNPCText": "If Mira sent you, say so. Otherwise move along.",
+    "DefaultNPCText": "Meat, hides, quiet shots. If you can hunt, we can talk.",
     "Waypoints": [
         [
-            3192.199951171875,
-            296.7070007324219,
-            6093.31005859375
+            7251.88,
+            338.748,
+            8230.65
         ]
     ],
     "NPCEmoteID": 14,
