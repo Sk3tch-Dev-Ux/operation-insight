@@ -1,0 +1,19 @@
+{
+    "ConfigVersion": 28,
+    "ID": 3,
+    "ObjectiveType": 4,
+    "ObjectiveText": "Recover 2 tetracycline boxes for Insight med stores",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Collections": [
+        {
+            "Amount": 2,
+            "ClassName": "TetracyclineAntibiotics",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": -1
+        }
+    ],
+    "ShowDistance": 0,
+    "AddItemsToNearbyMarketZone": 0,
+    "NeedAnyCollection": 0
+}

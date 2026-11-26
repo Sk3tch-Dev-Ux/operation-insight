@@ -1,0 +1,53 @@
+{
+    "m_Version": 2,
+    "Enabled": 1,
+    "UTC": 0,
+    "UseMissionTime": 0,
+    "Notifications": [
+        {
+            "Hour": 12,
+            "Minute": 0,
+            "Second": 0,
+            "Title": "Raid Policy",
+            "Text": "Base raiding is allowed Friday 18:00 through Monday 06:00 (server local time). Outside that window, raid tools will not work.",
+            "Icon": "Info",
+            "Color": ""
+        },
+        {
+            "Hour": 17,
+            "Minute": 45,
+            "Second": 0,
+            "Title": "Raid Window Reminder",
+            "Text": "If today is Friday: raiding opens at 18:00. Weekend rule — Friday 18:00 to Monday 06:00 only.",
+            "Icon": "Exclamationmark",
+            "Color": ""
+        },
+        {
+            "Hour": 18,
+            "Minute": 0,
+            "Second": 0,
+            "Title": "Raid Status",
+            "Text": "Raid window: Fri 18:00–Mon 06:00. If you are inside that window, bases are fair game. If not, walls hold.",
+            "Icon": "Exclamationmark",
+            "Color": ""
+        },
+        {
+            "Hour": 5,
+            "Minute": 45,
+            "Second": 0,
+            "Title": "Raid Window Reminder",
+            "Text": "If today is Monday: raiding closes at 06:00. Secure your position before the window ends.",
+            "Icon": "Exclamationmark",
+            "Color": ""
+        },
+        {
+            "Hour": 6,
+            "Minute": 0,
+            "Second": 0,
+            "Title": "Raid Status",
+            "Text": "Outside Fri 18:00–Mon 06:00, Expansion raid tools are locked. Survive, build, and wait for the weekend.",
+            "Icon": "Info",
+            "Color": ""
+        }
+    ]
+}

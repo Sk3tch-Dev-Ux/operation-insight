@@ -1,0 +1,28 @@
+{
+    "ConfigVersion": 6,
+    "ID": 3,
+    "ClassName": "ExpansionQuestBoardLarge",
+    "Position": [
+        3706.610107421875,
+        403.25,
+        5983.39990234375
+    ],
+    "Orientation": [
+        170.99000549316407,
+        0.0,
+        0.0
+    ],
+    "NPCName": "Insight Operations Board",
+    "DefaultNPCText": "Posted jobs for Insight Cell. Take only what you can finish.",
+    "Waypoints": [],
+    "NPCEmoteID": 46,
+    "NPCEmoteIsStatic": 0,
+    "NPCLoadoutFile": "",
+    "NPCInteractionEmoteID": 1,
+    "NPCQuestCancelEmoteID": 60,
+    "NPCQuestStartEmoteID": 58,
+    "NPCQuestCompleteEmoteID": 39,
+    "NPCFaction": "InvincibleObservers",
+    "NPCType": 1,
+    "Active": 1
+}

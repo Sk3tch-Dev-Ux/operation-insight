@@ -1,0 +1,59 @@
+{
+    "ConfigVersion": 22,
+    "ID": 1,
+    "Type": 1,
+    "Title": "Dead Drop",
+    "Descriptions": [
+        "You look like you can still walk a straight line. Good enough. Insight Cell is trying to keep a few relays alive while the rest of Chernarus eats itself. Take this sealed note to Tomas Kovic northwest of here — do not open it. If he is still breathing, he will know what to do.",
+        "The note is not a souvenir. Find Tomas and hand it over.",
+        "You did the simple thing correctly. That is rarer than you think."
+    ],
+    "ObjectiveText": "Deliver the sealed note to Tomas Kovic.",
+    "FollowUpQuest": 2,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [
+        {
+            "ClassName": "ExpansionQuestItemPaper",
+            "Amount": 1
+        }
+    ],
+    "Rewards": [],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        1
+    ],
+    "QuestTurnInIDs": [
+        2
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 1,
+            "ObjectiveType": 5
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 1,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

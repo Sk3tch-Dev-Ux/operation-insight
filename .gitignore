@@ -1,0 +1,13 @@
+# Secrets & runtime noise
+**/.env*
+**/Highwatch/
+**/ATM/
+**/PermissionsFramework/Players/
+**/*.RPT
+**/*.ADM
+**/*.log
+**/*.mdmp
+**/DataCache/
+**/Logs/
+.DS_Store
+Thumbs.db

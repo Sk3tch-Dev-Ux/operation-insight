@@ -1,0 +1,502 @@
+{
+    "x": 3689.395263671875,
+    "y": 5985.54248046875,
+    "z": 403.7464599609375,
+    "building_x": 3686.41552734375,
+    "building_y": 5982.14892578125,
+    "building_z": 407.6746520996094,
+    "door_indices": [
+        0,
+        1,
+        2,
+        3
+    ],
+    "use_announcement": 1,
+    "announcement_title": "Insight Secure Room",
+    "announcement_text": "A sealed Insight locker at Green Mountain just opened. Expect company.",
+    "announcement_color_rgba": "255,255,165,0",
+    "announcement_duration_seconds": 7,
+    "Location_Name": "Door_Land_Mil_Barracks5_3689_5986_404",
+    "BuildingClassName": "Land_Mil_Barracks5",
+    "keycard_class_name": "BS_keycard_lab_red",
+    "keycard_class_names": [],
+    "sound_accept": "Sound_Door_Accepted",
+    "sound_deny": "",
+    "showRequiredKeys": 1,
+    "use_alarm": 1,
+    "alarm_sound": "Alarm_Military",
+    "alarm_duration": 45,
+    "alarm_loop_delay": 1.7999999523162842,
+    "min_unlock_time": 0,
+    "max_unlock_time": 0,
+    "min_restock_time": 70,
+    "max_restock_time": 70,
+    "min_containers_to_spawn": 2,
+    "max_containers_to_spawn": 3,
+    "containers_only": 0,
+    "persistCooldownOnRestart": 0,
+    "use_safety_teleport": 1,
+    "safety_teleport_radius": 30.0,
+    "use_custom_teleport_points": 0,
+    "custom_teleport_points": [],
+    "containers": [
+        {
+            "referenceName": "BOX1",
+            "className": "BS_Box1_Black",
+            "position": [
+                3685.79833984375,
+                403.9132995605469,
+                5989.234375
+            ],
+            "orientation": [
+                -20.001272201538087,
+                0.0,
+                0.0
+            ],
+            "objectScale": 1.0,
+            "spawnChance": 1.0,
+            "lootPoolName": "Vest",
+            "randomLootPools": [],
+            "lootMin": 1,
+            "lootMax": 1,
+            "useFixedLoot": 1,
+            "fixedItems": [
+                {
+                    "name": "AliceBag_NearBubble",
+                    "quantity": 1,
+                    "attachments": [],
+                    "quantityMinPercent": 1.0,
+                    "quantityMaxPercent": 1.0
+                },
+                {
+                    "name": "BallisticHelmet_Navy",
+                    "quantity": 1,
+                    "attachments": [],
+                    "quantityMinPercent": 1.0,
+                    "quantityMaxPercent": 1.0
+                },
+                {
+                    "name": "BalaclavaMask_Black",
+                    "quantity": 1,
+                    "attachments": [],
+                    "quantityMinPercent": 1.0,
+                    "quantityMaxPercent": 1.0
+                },
+                {
+                    "name": "CombatBoots_Black",
+                    "quantity": 1,
+                    "attachments": [],
+                    "quantityMinPercent": 1.0,
+                    "quantityMaxPercent": 1.0
+                },
+                {
+                    "name": "AmmoBox_762x54Tracer_20Rnd",
+                    "quantity": 1,
+                    "attachments": [],
+                    "quantityMinPercent": 1.0,
+                    "quantityMaxPercent": 1.0
+                },
+                {
+                    "name": "AmmoBox_308WinTracer_20Rnd",
+                    "quantity": 1,
+                    "attachments": [],
+                    "quantityMinPercent": 1.0,
+                    "quantityMaxPercent": 1.0
+                },
+                {
+                    "name": "AmmoBox_12gaSlug_10Rnd",
+                    "quantity": 1,
+                    "attachments": [],
+                    "quantityMinPercent": 1.0,
+                    "quantityMaxPercent": 1.0
+                },
+                {
+                    "name": "M79",
+                    "quantity": 1,
+                    "attachments": [],
+                    "quantityMinPercent": 1.0,
+                    "quantityMaxPercent": 1.0
+                },
+                {
+                    "name": "Grenade_ChemGas",
+                    "quantity": 2,
+                    "attachments": [],
+                    "quantityMinPercent": 1.0,
+                    "quantityMaxPercent": 1.0
+                }
+            ],
+            "preventDuplicateLoot": 0,
+            "spawnFromAllPools": 0,
+            "lb_preset_name": "",
+            "replacementChance": 0.0,
+            "replacementClassName": "",
+            "replacement_lb_preset_name": "",
+            "replacementLootPoolName": "",
+            "replacementRandomLootPools": [],
+            "replacementLootMin": 0,
+            "replacementLootMax": 0,
+            "replacementUseFixedLoot": 0,
+            "replacementFixedItems": [],
+            "replacementPreventDuplicateLoot": 0,
+            "requiredItem": "",
+            "unlockTime": 3.0,
+            "consumeItem": 1,
+            "open_sound": "",
+            "unlock_sound": "",
+            "unlock_anim_type": "crafting",
+            "min_open_time": 0.0,
+            "max_open_time": 0.0,
+            "skip_open_item": "",
+            "consume_skip_item": 1
+        },
+        {
+            "referenceName": "Guncase1",
+            "className": "BS_Guncase",
+            "position": [
+                3678.13134765625,
+                407.2004699707031,
+                5993.5595703125
+            ],
+            "orientation": [
+                -123.19649505615235,
+                0.0,
+                0.0
+            ],
+            "objectScale": 1.0,
+            "spawnChance": 1.0,
+            "lootPoolName": "Weapons1",
+            "randomLootPools": [],
+            "lootMin": 2,
+            "lootMax": 2,
+            "useFixedLoot": 0,
+            "fixedItems": [],
+            "preventDuplicateLoot": 1,
+            "spawnFromAllPools": 0,
+            "lb_preset_name": "",
+            "replacementChance": 0.0,
+            "replacementClassName": "",
+            "replacement_lb_preset_name": "",
+            "replacementLootPoolName": "",
+            "replacementRandomLootPools": [],
+            "replacementLootMin": 0,
+            "replacementLootMax": 0,
+            "replacementUseFixedLoot": 0,
+            "replacementFixedItems": [],
+            "replacementPreventDuplicateLoot": 0,
+            "requiredItem": "",
+            "unlockTime": 3.0,
+            "consumeItem": 1,
+            "open_sound": "",
+            "unlock_sound": "",
+            "unlock_anim_type": "crafting",
+            "min_open_time": 0.0,
+            "max_open_time": 0.0,
+            "skip_open_item": "",
+            "consume_skip_item": 1
+        },
+        {
+            "referenceName": "Box2",
+            "className": "BS_Box4_Green",
+            "position": [
+                3676.057373046875,
+                407.9801025390625,
+                5992.25341796875
+            ],
+            "orientation": [
+                -12.470820426940918,
+                0.0,
+                0.0
+            ],
+            "objectScale": 1.0,
+            "spawnChance": 1.0,
+            "lootPoolName": "Explosives",
+            "randomLootPools": [],
+            "lootMin": 2,
+            "lootMax": 2,
+            "useFixedLoot": 1,
+            "fixedItems": [
+                {
+                    "name": "FAL",
+                    "quantity": 1,
+                    "attachments": [
+                        {
+                            "name": "Fal_OeBttstck",
+                            "random_names": [],
+                            "quantity": 1,
+                            "attachments": []
+                        },
+                        {
+                            "name": "M4_T3NRDSOptic",
+                            "random_names": [],
+                            "quantity": 1,
+                            "attachments": []
+                        },
+                        {
+                            "name": "Mag_FAL_20Rnd",
+                            "random_names": [],
+                            "quantity": 20,
+                            "attachments": []
+                        }
+                    ],
+                    "quantityMinPercent": 1.0,
+                    "quantityMaxPercent": 1.0
+                },
+                {
+                    "name": "Grenade_ChemGas",
+                    "quantity": 2,
+                    "attachments": [],
+                    "quantityMinPercent": 1.0,
+                    "quantityMaxPercent": 1.0
+                },
+                {
+                    "name": "TacticalBaconCan_Opened",
+                    "quantity": 1,
+                    "attachments": [],
+                    "quantityMinPercent": 0.5,
+                    "quantityMaxPercent": 1.0
+                },
+                {
+                    "name": "TacticalBaconCan",
+                    "quantity": 2,
+                    "attachments": [],
+                    "quantityMinPercent": 1.0,
+                    "quantityMaxPercent": 1.0
+                }
+            ],
+            "preventDuplicateLoot": 1,
+            "spawnFromAllPools": 0,
+            "lb_preset_name": "",
+            "replacementChance": 0.0,
+            "replacementClassName": "",
+            "replacement_lb_preset_name": "",
+            "replacementLootPoolName": "",
+            "replacementRandomLootPools": [],
+            "replacementLootMin": 0,
+            "replacementLootMax": 0,
+            "replacementUseFixedLoot": 0,
+            "replacementFixedItems": [],
+            "replacementPreventDuplicateLoot": 0,
+            "requiredItem": "",
+            "unlockTime": 3.0,
+            "consumeItem": 1,
+            "open_sound": "",
+            "unlock_sound": "",
+            "unlock_anim_type": "crafting",
+            "min_open_time": 0.0,
+            "max_open_time": 0.0,
+            "skip_open_item": "",
+            "consume_skip_item": 1
+        }
+    ],
+    "doorSpecificLootPools": [
+        {
+            "lootPoolName": "Weapons1",
+            "rewards": [
+                {
+                    "name": "SVD_Wooden",
+                    "chanceToSpawn": 0.5,
+                    "quantityMin": 1,
+                    "quantityMax": 1,
+                    "attachments": [
+                        {
+                            "name": "PSO1Optic",
+                            "random_names": [],
+                            "quantity": 1,
+                            "attachments": []
+                        },
+                        {
+                            "name": "AK_Suppressor",
+                            "random_names": [],
+                            "quantity": 1,
+                            "attachments": []
+                        },
+                        {
+                            "name": "Mag_SVD_10Rnd",
+                            "random_names": [],
+                            "quantity": 10,
+                            "attachments": []
+                        }
+                    ]
+                },
+                {
+                    "name": "M4A1",
+                    "chanceToSpawn": 0.5,
+                    "quantityMin": 1,
+                    "quantityMax": 1,
+                    "attachments": [
+                        {
+                            "name": "Mag_STANAGCoupled_30Rnd",
+                            "random_names": [],
+                            "quantity": 30,
+                            "attachments": []
+                        },
+                        {
+                            "name": "M9A1_Bayonet",
+                            "random_names": [],
+                            "quantity": 1,
+                            "attachments": []
+                        },
+                        {
+                            "name": "M4_OEBttstck",
+                            "random_names": [],
+                            "quantity": 1,
+                            "attachments": []
+                        },
+                        {
+                            "name": "M4_RISHndgrd",
+                            "random_names": [],
+                            "quantity": 1,
+                            "attachments": []
+                        },
+                        {
+                            "name": "UniversalLight",
+                            "random_names": [],
+                            "quantity": 1,
+                            "attachments": []
+                        },
+                        {
+                            "name": "M4_T3NRDSOptic",
+                            "random_names": [],
+                            "quantity": 1,
+                            "attachments": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "lootPoolName": "Vest",
+            "rewards": [
+                {
+                    "name": "PlateCarrierVest_Green",
+                    "chanceToSpawn": 0.20000000298023225,
+                    "quantityMin": 1,
+                    "quantityMax": 1,
+                    "attachments": [
+                        {
+                            "name": "PlateCarrierPouches",
+                            "random_names": [],
+                            "quantity": 1,
+                            "attachments": []
+                        },
+                        {
+                            "name": "PlateCarrierHolster",
+                            "random_names": [],
+                            "quantity": 1,
+                            "attachments": []
+                        }
+                    ]
+                },
+                {
+                    "name": "PlateCarrierVest_Camo",
+                    "chanceToSpawn": 0.20000000298023225,
+                    "quantityMin": 1,
+                    "quantityMax": 1,
+                    "attachments": [
+                        {
+                            "name": "PlateCarrierPouches",
+                            "random_names": [],
+                            "quantity": 1,
+                            "attachments": []
+                        },
+                        {
+                            "name": "PlateCarrierHolster",
+                            "random_names": [],
+                            "quantity": 1,
+                            "attachments": []
+                        }
+                    ]
+                },
+                {
+                    "name": "PlateCarrierVest_Black",
+                    "chanceToSpawn": 0.20000000298023225,
+                    "quantityMin": 1,
+                    "quantityMax": 1,
+                    "attachments": [
+                        {
+                            "name": "PlateCarrierPouches",
+                            "random_names": [],
+                            "quantity": 1,
+                            "attachments": []
+                        },
+                        {
+                            "name": "PlateCarrierHolster",
+                            "random_names": [],
+                            "quantity": 1,
+                            "attachments": []
+                        }
+                    ]
+                },
+                {
+                    "name": "PressVest_Blue",
+                    "chanceToSpawn": 0.20000000298023225,
+                    "quantityMin": 1,
+                    "quantityMax": 1,
+                    "attachments": []
+                },
+                {
+                    "name": "PoliceVest",
+                    "chanceToSpawn": 0.20000000298023225,
+                    "quantityMin": 1,
+                    "quantityMax": 1,
+                    "attachments": []
+                }
+            ]
+        },
+        {
+            "lootPoolName": "Explosives",
+            "rewards": [
+                {
+                    "name": "Plastic_Explosive",
+                    "chanceToSpawn": 0.5,
+                    "quantityMin": 1,
+                    "quantityMax": 1,
+                    "attachments": []
+                },
+                {
+                    "name": "ImprovisedExplosive",
+                    "chanceToSpawn": 0.25,
+                    "quantityMin": 1,
+                    "quantityMax": 1,
+                    "attachments": []
+                },
+                {
+                    "name": "ClaymoreMine",
+                    "chanceToSpawn": 0.25,
+                    "quantityMin": 1,
+                    "quantityMax": 1,
+                    "attachments": []
+                }
+            ]
+        }
+    ],
+    "aiToSpawnOnOpen": [],
+    "min_ai_to_spawn": -1,
+    "max_ai_to_spawn": -1,
+    "spawn_hacked_crate": 0,
+    "hacked_crate_classname": "BS_Hacked_Crate_White",
+    "hacked_crate_position": [
+        3675.442626953125,
+        402.6916198730469,
+        5990.3232421875
+    ],
+    "hacked_crate_orientation": [
+        41.465606689453128,
+        0.0,
+        0.0
+    ],
+    "hacked_crate_config_id": "Example_ID_HackedCrate",
+    "unlockOnly": 0,
+    "delay_close_if_player_nearby": 1,
+    "reputationReward": 0,
+    "use_continuous_action": 0,
+    "continuous_action_time": 5.0,
+    "linked_doors": [],
+    "countdown_notifications": [],
+    "vehiclesToSpawn": [],
+    "min_vehicles_to_spawn": -1,
+    "max_vehicles_to_spawn": -1,
+    "min_players_online": 0,
+    "cleanup_loot_on_close": 0,
+    "cleanup_radius": 3.0
+}

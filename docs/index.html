@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Operation Insight — Vanilla+ Chernarus</title>
+  <meta name="description" content="Operation Insight is a grounded Vanilla+ 1PP PVP DayZ server on Chernarus. Survival first, raid weekends, Insight jobs, one trading post." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Instrument+Serif:ital@0;1&family=Schibsted+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink: #1c1a17;
+      --paper: #e8e2d6;
+      --fog: #c9c2b4;
+      --field: #3f4a3a;
+      --signal: #b85a2a;
+      --line: rgba(28, 26, 23, 0.16);
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: "Schibsted Grotesk", system-ui, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(1200px 600px at 10% -10%, rgba(184, 90, 42, 0.12), transparent 55%),
+        linear-gradient(180deg, #ddd6c8 0%, var(--paper) 40%, #d7d0c2 100%);
+      min-height: 100vh;
+    }
+    .grain {
+      pointer-events: none;
+      position: fixed;
+      inset: 0;
+      opacity: 0.08;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+      z-index: 0;
+    }
+    main { position: relative; z-index: 1; }
+    .hero {
+      min-height: 100vh;
+      display: grid;
+      align-content: end;
+      padding: clamp(1.5rem, 4vw, 3.5rem);
+      padding-bottom: clamp(2.5rem, 6vw, 4.5rem);
+      border-bottom: 1px solid var(--line);
+      background:
+        linear-gradient(180deg, transparent 35%, rgba(232, 226, 214, 0.92) 78%),
+        linear-gradient(115deg, rgba(63, 74, 58, 0.35), transparent 45%),
+        repeating-linear-gradient(-12deg, transparent, transparent 18px, rgba(28,26,23,0.03) 18px, rgba(28,26,23,0.03) 19px);
+      animation: rise 1.1s ease-out both;
+    }
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(18px); }
+      to { opacity: 1; transform: none; }
+    }
+    .brand {
+      font-family: "IBM Plex Mono", monospace;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      font-size: 0.78rem;
+      font-weight: 600;
+      margin: 0 0 1rem;
+    }
+    h1 {
+      font-family: "Instrument Serif", Georgia, serif;
+      font-weight: 400;
+      font-size: clamp(3rem, 9vw, 6.5rem);
+      line-height: 0.92;
+      margin: 0 0 1rem;
+      max-width: 11ch;
+    }
+    .lede {
+      max-width: 34rem;
+      font-size: 1.05rem;
+      line-height: 1.55;
+      margin: 0 0 1.75rem;
+      color: rgba(28, 26, 23, 0.82);
+    }
+    .cta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+    .cta a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.85rem 1.15rem;
+      text-decoration: none;
+      border: 1px solid var(--ink);
+      color: var(--ink);
+      background: transparent;
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 0.78rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      transition: background 160ms ease, color 160ms ease, transform 160ms ease;
+    }
+    .cta a.primary {
+      background: var(--ink);
+      color: var(--paper);
+    }
+    .cta a:hover { transform: translateY(-1px); background: var(--signal); border-color: var(--signal); color: #fff; }
+    .cta a.primary:hover { background: var(--signal); border-color: var(--signal); }
+    section {
+      padding: clamp(2.5rem, 6vw, 5rem) clamp(1.5rem, 4vw, 3.5rem);
+      border-bottom: 1px solid var(--line);
+      animation: rise 1s ease-out both;
+      animation-delay: 0.15s;
+    }
+    section h2 {
+      font-family: "Instrument Serif", Georgia, serif;
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 400;
+      margin: 0 0 0.75rem;
+    }
+    section p {
+      max-width: 40rem;
+      line-height: 1.6;
+      margin: 0 0 1rem;
+      color: rgba(28, 26, 23, 0.84);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+    .item {
+      padding: 1rem 0;
+      border-top: 1px solid var(--line);
+    }
+    .item strong {
+      display: block;
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 0.75rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 0.4rem;
+    }
+    .item span { line-height: 1.45; display: block; color: rgba(28,26,23,0.8); }
+    footer {
+      padding: 2rem clamp(1.5rem, 4vw, 3.5rem) 3rem;
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 0.75rem;
+      letter-spacing: 0.05em;
+      color: rgba(28,26,23,0.65);
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .hero, section { animation: none; }
+      .cta a { transition: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <main>
+    <header class="hero">
+      <p class="brand">Operation Insight</p>
+      <h1>Vanilla+ Chernarus, still dangerous.</h1>
+      <p class="lede">A grounded 1PP PVP survival server. One trading post. Raid weekends. Thin lore jobs from Insight Cell. The map still has to be earned.</p>
+      <div class="cta">
+        <a class="primary" href="https://discord.gg/EW9ds9Vq8Y">Join Discord</a>
+        <a href="https://github.com/Sk3tch-Dev-Ux/operation-insight">View configs on GitHub</a>
+      </div>
+    </header>
+
+    <section>
+      <h2>What you get</h2>
+      <p>Not a kit server. Not an MMO. Quality-of-life where it reduces busywork, scarcity where it keeps fights honest.</p>
+      <div class="grid">
+        <div class="item"><strong>1PP PVP</strong><span>First-person only. Coastal spawns on Svetloyarsk, Berezino, Elektro, and Chernogorsk.</span></div>
+        <div class="item"><strong>Raid weekends</strong><span>Raiding allowed Friday 18:00 through Monday 06:00 server time. Walls mean something mid-week.</span></div>
+        <div class="item"><strong>Single trader</strong><span>Custom Insight Trading Post. Relief valve for food, meds, and toppers — not a mall.</span></div>
+        <div class="item"><strong>Insight jobs</strong><span>Short story chain and board work at Green Mountain. Survival rewards, not prestige loadouts.</span></div>
+        <div class="item"><strong>Contested caches</strong><span>Scarce encrypted crates near military grids when the server is alive. Bring a crew.</span></div>
+        <div class="item"><strong>Expansion, restrained</strong><span>AI and systems stay obstacles and helpers — not status symbols.</span></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Player hints</h2>
+      <p>Green Mountain hosts Insight Cell jobs but is not a safezone. The Trading Post is the only protected market. Dig for dead-drops. Watch the weekend clock before you leave a base half-built.</p>
+      <p>Mods lean Vanilla+: Expansion, base QoL, winter atmosphere, keycard/cache events. Full config lives in this repository.</p>
+      <div class="cta" style="margin-top:1.5rem">
+        <a class="primary" href="https://discord.gg/EW9ds9Vq8Y">Discord</a>
+        <a href="https://github.com/Sk3tch-Dev-Ux/operation-insight/tree/main/server">Browse server configs</a>
+      </div>
+    </section>
+  </main>
+  <footer>Operation Insight · Chernarus · maintained as open server config</footer>
+</body>
+</html>

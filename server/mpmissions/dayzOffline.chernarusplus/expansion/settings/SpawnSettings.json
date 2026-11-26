@@ -1,0 +1,217 @@
+{
+    "m_Version":  7,
+    "SpawnLocations":  [
+                           {
+                               "Name":  "Svetloyarsk",
+                               "Positions":  [
+                                                 {
+                                                     "value":  [
+                                                                   14273.2001953125,
+                                                                   2.4000000953674318,
+                                                                   13053.2998046875
+                                                               ],
+                                                     "Count":  3
+                                                 },
+                                                 {
+                                                     "value":  [
+                                                                   14407.2998046875,
+                                                                   2.0,
+                                                                   13253.0
+                                                               ],
+                                                     "Count":  3
+                                                 }
+                                             ],
+                               "UseCooldown":  1
+                           },
+                           {
+                               "Name":  "Berezino",
+                               "Positions":  [
+                                                 {
+                                                     "value":  [
+                                                                   12915.7001953125,
+                                                                   3.4000000953674318,
+                                                                   9278.2001953125
+                                                               ],
+                                                     "Count":  3
+                                                 },
+                                                 {
+                                                     "value":  [
+                                                                   13057.2001953125,
+                                                                   2.299999952316284,
+                                                                   9584.48046875
+                                                               ],
+                                                     "Count":  3
+                                                 }
+                                             ],
+                               "UseCooldown":  1
+                           },
+                           {
+                               "Name":  "Elektrozavodsk",
+                               "Positions":  [
+                                                 {
+                                                     "value":  [
+                                                                   11099.068359375,
+                                                                   2.2976760864257814,
+                                                                   2735.5625
+                                                               ],
+                                                     "Count":  3
+                                                 },
+                                                 {
+                                                     "value":  [
+                                                                   10858.4130859375,
+                                                                   2.9117209911346437,
+                                                                   2328.290283203125
+                                                               ],
+                                                     "Count":  3
+                                                 }
+                                             ],
+                               "UseCooldown":  1
+                           },
+                           {
+                               "Name":  "Chernogorsk",
+                               "Positions":  [
+                                                 {
+                                                     "value":  [
+                                                                   6044.10302734375,
+                                                                   6.429995059967041,
+                                                                   1871.5006103515626
+                                                               ],
+                                                     "Count":  3
+                                                 },
+                                                 {
+                                                     "value":  [
+                                                                   6220.4404296875,
+                                                                   1.917814016342163,
+                                                                   2101.123291015625
+                                                               ],
+                                                     "Count":  3
+                                                 }
+                                             ],
+                               "UseCooldown":  1
+                           }
+                       ],
+    "StartingClothing":  {
+                             "EnableCustomClothing":  1,
+                             "SetRandomHealth":  1,
+                             "Headgear":  [
+
+                                          ],
+                             "Glasses":  [
+
+                                         ],
+                             "Masks":  [
+
+                                       ],
+                             "Tops":  [
+                                          "TShirt_Green",
+                                          "TShirt_Blue",
+                                          "TShirt_Black",
+                                          "TShirt_Beige",
+                                          "TShirt_Red",
+                                          "TShirt_OrangeWhiteStripes",
+                                          "TShirt_White",
+                                          "TShirt_Red",
+                                          "TShirt_Grey",
+                                          "TShirt_RedBlackStripes"
+                                      ],
+                             "Vests":  [
+
+                                       ],
+                             "Gloves":  [
+
+                                        ],
+                             "Pants":  [
+                                           "CanvasPants_Beige",
+                                           "CanvasPants_Blue",
+                                           "CanvasPants_Grey",
+                                           "CanvasPants_Red",
+                                           "CanvasPants_Violet",
+                                           "CanvasPantsMidi_Beige",
+                                           "CanvasPantsMidi_Blue",
+                                           "CanvasPantsMidi_Grey",
+                                           "CanvasPantsMidi_Red",
+                                           "CanvasPantsMidi_Violet"
+                                       ],
+                             "Belts":  [
+
+                                       ],
+                             "Shoes":  [
+                                           "AthleticShoes_Blue",
+                                           "AthleticShoes_Grey",
+                                           "AthleticShoes_Brown",
+                                           "AthleticShoes_Green",
+                                           "AthleticShoes_Black"
+                                       ],
+                             "Armbands":  [
+
+                                          ],
+                             "Backpacks":  [
+                                               "TaloonBag_Blue",
+                                               "TaloonBag_Green",
+                                               "TaloonBag_Orange",
+                                               "TaloonBag_Violet"
+                                           ]
+                         },
+    "EnableSpawnSelection":  1,
+    "SpawnOnTerritory":  0,
+    "StartingGear":  {
+                         "EnableStartingGear":  1,
+                         "ApplyEnergySources":  1,
+                         "SetRandomHealth":  1,
+                         "UpperGear":  [
+                                           {
+                                               "ClassName":  "Rag",
+                                               "Quantity":  4,
+                                               "Attachments":  [
+
+                                                               ]
+                                           },
+                                           {
+                                               "ClassName":  "Apple",
+                                               "Quantity":  -1,
+                                               "Attachments":  [
+
+                                                               ]
+                                           }
+                                       ],
+                         "PantsGear":  [
+
+                                       ],
+                         "BackpackGear":  [
+
+                                          ],
+                         "VestGear":  [
+
+                                      ],
+                         "PrimaryWeapon":  {
+
+                                           },
+                         "SecondaryWeapon":  {
+
+                                             }
+                     },
+    "UseLoadouts":  0,
+    "MaleLoadouts":  [
+                         {
+                             "Loadout":  "PlayerSurvivorLoadout",
+                             "Chance":  1.0
+                         }
+                     ],
+    "FemaleLoadouts":  [
+                           {
+                               "Loadout":  "PlayerSurvivorLoadout",
+                               "Chance":  1.0
+                           }
+                       ],
+    "SpawnHealthValue":  100.0,
+    "SpawnEnergyValue":  500.0,
+    "SpawnWaterValue":  500.0,
+    "EnableRespawnCooldowns":  1,
+    "RespawnCooldown":  120,
+    "TerritoryRespawnCooldown":  240,
+    "PunishMultispawn":  1,
+    "PunishCooldown":  120,
+    "PunishTimeframe":  300,
+    "CreateDeathMarker":  1,
+    "BackgroundImagePath":  "DayZExpansion/SpawnSelection/GUI/textures/wood_background.edds"
+}

@@ -1,0 +1,92 @@
+{
+    "enableRandomContainerRespawn": 1,
+    "maxRandomContainers": 12,
+    "debug_build": 0,
+    "admin_log": 0,
+    "showDoorTimerText": 1,
+    "log_keep_days": 7,
+    "use_custom_animations": 1,
+    "KeyCard_Locations": [],
+    "lootPools": [
+        {
+            "lootPoolName": "Military_Default",
+            "rewards": [
+                {
+                    "name": "Ammo_762x39",
+                    "chanceToSpawn": 1.0,
+                    "quantityMin": 20,
+                    "quantityMax": 40,
+                    "attachments": []
+                },
+                {
+                    "name": "Mag_AKM_30Rnd",
+                    "chanceToSpawn": 0.45,
+                    "quantityMin": 1,
+                    "quantityMax": 1,
+                    "attachments": []
+                },
+                {
+                    "name": "AKM",
+                    "chanceToSpawn": 0.2,
+                    "quantityMin": 1,
+                    "quantityMax": 1,
+                    "attachments": []
+                },
+                {
+                    "name": "PlateCarrierVest",
+                    "chanceToSpawn": 0.25,
+                    "quantityMin": 1,
+                    "quantityMax": 1,
+                    "attachments": []
+                },
+                {
+                    "name": "Mich2001Helmet",
+                    "chanceToSpawn": 0.3,
+                    "quantityMin": 1,
+                    "quantityMax": 1,
+                    "attachments": []
+                },
+                {
+                    "name": "WeaponCleaningKit",
+                    "chanceToSpawn": 0.4,
+                    "quantityMin": 1,
+                    "quantityMax": 1,
+                    "attachments": []
+                }
+            ]
+        },
+        {
+            "lootPoolName": "Medical_Default",
+            "rewards": [
+                {
+                    "name": "BandageDressing",
+                    "chanceToSpawn": 1.0,
+                    "quantityMin": 3,
+                    "quantityMax": 6,
+                    "attachments": []
+                },
+                {
+                    "name": "Morphine",
+                    "chanceToSpawn": 0.7,
+                    "quantityMin": 1,
+                    "quantityMax": 2,
+                    "attachments": []
+                },
+                {
+                    "name": "SalineBagIV",
+                    "chanceToSpawn": 0.4,
+                    "quantityMin": 1,
+                    "quantityMax": 1,
+                    "attachments": []
+                },
+                {
+                    "name": "TetracyclineAntibiotics",
+                    "chanceToSpawn": 0.5,
+                    "quantityMin": 1,
+                    "quantityMax": 2,
+                    "attachments": []
+                }
+            ]
+        }
+    ]
+}
