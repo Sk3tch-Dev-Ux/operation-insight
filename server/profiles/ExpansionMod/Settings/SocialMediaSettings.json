@@ -6,24 +6,24 @@
             "m_Text": "Vanilla+ 1PP PVP on Chernarus. Survive first. One trading post. Raid weekends: Friday 18:00 through Monday 06:00 (server time)."
         },
         {
-            "m_Title": "Where to start",
-            "m_Text": "Coastal spawns only: Svetloyarsk, Berezino, Elektro, Chernogorsk. Insight Cell jobs are at Green Mountain — that area is not a safezone."
+            "m_Title": "Raid rules",
+            "m_Text": "Raiding is ONLY Fri 18:00-Mon 06:00. Use Expansion propane torch / bolt cutters in-window. Mid-week, raid tools will not work. Build like the weekend is coming."
         },
         {
             "m_Title": "Trading Post",
-            "m_Text": "There is a single Insight Trading Post (custom build). Traders are for food, meds, ammo toppers, and repairs — not full loadouts. Sell prices are intentionally low."
+            "m_Text": "Single Insight Trading Post (custom build + safezone). Sells food, meds, tools, ammo toppers, fishing gear, and vehicle repair parts. No gun mall. No aircraft."
         },
         {
-            "m_Title": "Raid weekends",
-            "m_Text": "Bases can be raided Fri 18:00–Mon 06:00. Outside that window Expansion raid tools will not work. Build like you expect company on the weekend."
+            "m_Title": "Where to start",
+            "m_Text": "Coastal spawns: Svetloyarsk, Berezino, Elektro, Chernogorsk. Insight Cell jobs are at Green Mountain — that area is NOT a safezone."
         },
         {
             "m_Title": "Encrypted caches",
-            "m_Text": "Scarce contested caches can ping near NWAF / VMC when enough survivors are online. Bring friends. Expect infected. Do not treat them like a free endgame printer."
+            "m_Text": "Scarce contested caches can appear near NWAF / VMC when enough players are online. Contested loot — bring a crew."
         },
         {
             "m_Title": "Insight jobs",
-            "m_Text": "Talk to Mira at Green Mountain for the Dead Drop chain. Board jobs unlock after Eyes Only. Rewards are survival tools — the map still has to be earned."
+            "m_Text": "Talk to Mira at Green Mountain for Dead Drop. After Contested Trail, find The Post Still Stands. Board dailies unlock after Eyes Only."
         }
     ],
     "NewsFeedLinks": [
@@ -34,7 +34,7 @@
         },
         {
             "m_Label": "GitHub",
-            "m_Icon": "set:expansion_iconset image:icon_github",
+            "m_Icon": "set:expansion_iconset image:icon_home",
             "m_URL": "https://sk3tch-dev-ux.github.io/operation-insight/"
         }
     ]

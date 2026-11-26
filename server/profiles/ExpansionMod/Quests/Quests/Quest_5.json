@@ -9,7 +9,7 @@
         "Path is open again. That is the job — not a medal. Take the supplies and get back to surviving."
     ],
     "ObjectiveText": "Clear the scavenger crew on the marked trail.",
-    "FollowUpQuest": -1,
+    "FollowUpQuest": 22,
     "Repeatable": 0,
     "IsDailyQuest": 0,
     "IsWeeklyQuest": 0,

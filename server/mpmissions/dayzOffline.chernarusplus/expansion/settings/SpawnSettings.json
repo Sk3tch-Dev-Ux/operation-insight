@@ -146,10 +146,7 @@
 
                                           ],
                              "Backpacks":  [
-                                               "TaloonBag_Blue",
-                                               "TaloonBag_Green",
-                                               "TaloonBag_Orange",
-                                               "TaloonBag_Violet"
+
                                            ]
                          },
     "EnableSpawnSelection":  1,

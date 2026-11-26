@@ -2,16 +2,16 @@
     "ConfigVersion": 28,
     "ID": 5,
     "ObjectiveType": 3,
-    "ObjectiveText": "Reach destination A.",
+    "ObjectiveText": "Reach the Insight Trading Post",
     "TimeLimit": -1,
     "Active": 1,
     "Position": [
-        3385.340087890625,
-        344.6449890136719,
-        6458.3701171875
+        7255.0,
+        335.0,
+        8255.0
     ],
-    "MaxDistance": 20.0,
-    "MarkerName": "Location A",
+    "MaxDistance": 40.0,
+    "MarkerName": "Insight Trading Post",
     "ShowDistance": 1,
     "TriggerOnEnter": 1,
     "TriggerOnExit": 0
