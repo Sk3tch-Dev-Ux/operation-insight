@@ -1,41 +1,9 @@
 {
     "m_Version": 2,
     "NewsFeedTexts": [
-        {
-            "m_Title": "Operation Insight",
-            "m_Text": "Vanilla+ 1PP PVP on Chernarus. Survive first. One trading post. Raid weekends: Friday 18:00 through Monday 06:00 (server time)."
-        },
-        {
-            "m_Title": "Raid rules",
-            "m_Text": "Raiding is ONLY Fri 18:00-Mon 06:00. Use Expansion propane torch / bolt cutters in-window. Mid-week, raid tools will not work. Build like the weekend is coming."
-        },
-        {
-            "m_Title": "Trading Post",
-            "m_Text": "Single Insight Trading Post (custom build + safezone). Sells food, meds, tools, ammo toppers, fishing gear, and vehicle repair parts. No gun mall. No aircraft."
-        },
-        {
-            "m_Title": "Where to start",
-            "m_Text": "Coastal spawns: Svetloyarsk, Berezino, Elektro, Chernogorsk. Insight Cell jobs are at Green Mountain — that area is NOT a safezone."
-        },
-        {
-            "m_Title": "Encrypted caches",
-            "m_Text": "Scarce contested caches can appear near NWAF / VMC when enough players are online. Contested loot — bring a crew."
-        },
-        {
-            "m_Title": "Insight jobs",
-            "m_Text": "Talk to Mira at Green Mountain for Dead Drop. After Contested Trail, find The Post Still Stands. Board dailies unlock after Eyes Only."
-        }
+
     ],
     "NewsFeedLinks": [
-        {
-            "m_Label": "Discord",
-            "m_Icon": "set:expansion_iconset image:icon_discord",
-            "m_URL": "https://discord.gg/EW9ds9Vq8Y"
-        },
-        {
-            "m_Label": "GitHub",
-            "m_Icon": "set:expansion_iconset image:icon_home",
-            "m_URL": "https://sk3tch-dev-ux.github.io/operation-insight/"
-        }
+
     ]
 }

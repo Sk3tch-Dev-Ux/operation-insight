@@ -1,6 +1,6 @@
 {
     "m_Version":  13,
-    "DisplayName":  "#STR_EXPANSION_MARKET_TRADER_BUILDING_SUPPLIES",
+    "DisplayName":  "Building & Tools",
     "MinRequiredReputation":  0,
     "MaxRequiredReputation":  2147483647,
     "RequiredFaction":  "",
@@ -15,7 +15,12 @@
     "Categories":  [
                        "Tools",
                        "Supplies",
-                       "Locks"
+                       "Locks",
+                       "Containers",
+                       "Tents",
+                       "Kits",
+                       "Navigation",
+                       "Lights"
                    ],
     "Items":  {
 

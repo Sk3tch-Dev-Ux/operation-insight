@@ -15,23 +15,53 @@
             "Rules": [
                 {
                     "RuleParagraph": "1.1.",
-                    "RuleText": "Insults, discrimination, extremist and racist statements or texts are taboo."
+                    "RuleText": "No cheats, macros, or exploits. Permanent ban."
                 },
                 {
                     "RuleParagraph": "1.2.",
-                    "RuleText": "We reserve the right to exclude people from the server who share extremist or racist ideas or who clearly disturb the server harmony."
+                    "RuleText": "No hate speech, discrimination, or toxic harassment in chat or voice."
                 },
                 {
                     "RuleParagraph": "1.3.",
-                    "RuleText": "Decisions of the team members, both the supporter and the admin are to be accepted without discussion."
+                    "RuleText": "Admin and staff decisions stand. Argue in Discord tickets, not in-game spam."
                 },
                 {
                     "RuleParagraph": "1.4.",
-                    "RuleText": "Provocations and toxic behavior will not be tolerated and punished! Be friendly to fellow players and your team, both in chat and in voice!"
+                    "RuleText": "No stream sniping or ghosting. Play the character you are logged in as."
+                }
+            ]
+        },
+        {
+            "CategoryName": "Raiding",
+            "Rules": [
+                {
+                    "RuleParagraph": "2.1.",
+                    "RuleText": "Raiding is ONLY Friday 18:00 through Monday 06:00 (server time)."
                 },
                 {
-                    "RuleParagraph": "1.5.",
-                    "RuleText": "The use of external programs, scripts and cheats is not tolerated and is punished with a permanent exclusion."
+                    "RuleParagraph": "2.2.",
+                    "RuleText": "Use Expansion propane torch / bolt cutters inside the raid window. Mid-week raid tools will not work."
+                },
+                {
+                    "RuleParagraph": "2.3.",
+                    "RuleText": "The Trading Post safezone is never a raid target. Do not grief traders or the post build."
+                }
+            ]
+        },
+        {
+            "CategoryName": "PVP and Bases",
+            "Rules": [
+                {
+                    "RuleParagraph": "3.1.",
+                    "RuleText": "1PP only. No third-person combat advantage."
+                },
+                {
+                    "RuleParagraph": "3.2.",
+                    "RuleText": "Build like the weekend is coming. Unlocked tents and open stashes are fair game anytime."
+                },
+                {
+                    "RuleParagraph": "3.3.",
+                    "RuleText": "Green Mountain Insight Cell jobs are NOT a safezone. Expect PVP."
                 }
             ]
         }
@@ -39,38 +69,8 @@
     "DisplayServerSettingsInServerInfoTab": 1,
     "SettingCategories": [
         {
-            "CategoryName": "Base-Building Settings",
-            "Settings": [
-                {
-                    "SettingTitle": "Expansion.Settings.BaseBuilding.CanCraftVanillaBasebuilding",
-                    "SettingText": "",
-                    "SettingValue": ""
-                },
-                {
-                    "SettingTitle": "Expansion.Settings.BaseBuilding.CanCraftExpansionBasebuilding",
-                    "SettingText": "",
-                    "SettingValue": ""
-                }
-            ]
-        },
-        {
             "CategoryName": "Raid Settings",
             "Settings": [
-                {
-                    "SettingTitle": "Expansion.Settings.Raid.CanRaidSafes",
-                    "SettingText": "",
-                    "SettingValue": ""
-                },
-                {
-                    "SettingTitle": "Expansion.Settings.Raid.SafeExplosionDamageMultiplier",
-                    "SettingText": "",
-                    "SettingValue": ""
-                },
-                {
-                    "SettingTitle": "Expansion.Settings.Raid.SafeProjectileDamageMultiplier",
-                    "SettingText": "",
-                    "SettingValue": ""
-                },
                 {
                     "SettingTitle": "Expansion.Settings.Raid.ExplosionTime",
                     "SettingText": "",
@@ -95,26 +95,6 @@
                     "SettingTitle": "Expansion.Settings.Territory.TerritorySize",
                     "SettingText": "",
                     "SettingValue": ""
-                },
-                {
-                    "SettingTitle": "Expansion.Settings.Territory.UseWholeMapForInviteList",
-                    "SettingText": "",
-                    "SettingValue": ""
-                }
-            ]
-        },
-        {
-            "CategoryName": "Map Settings",
-            "Settings": [
-                {
-                    "SettingTitle": "Expansion.Settings.Map.NeedGPSItemForKeyBinding",
-                    "SettingText": "",
-                    "SettingValue": ""
-                },
-                {
-                    "SettingTitle": "Expansion.Settings.Map.NeedMapItemForKeyBinding",
-                    "SettingText": "",
-                    "SettingValue": ""
                 }
             ]
         },
@@ -125,97 +105,61 @@
                     "SettingTitle": "Expansion.Settings.Party.MaxMembersInParty",
                     "SettingText": "",
                     "SettingValue": ""
-                },
-                {
-                    "SettingTitle": "Expansion.Settings.Party.UseWholeMapForInviteList",
-                    "SettingText": "",
-                    "SettingValue": ""
                 }
             ]
         }
     ],
     "Links": [
         {
-            "Name": "Homepage",
-            "URL": "https://www.google.com/",
-            "IconName": "Homepage",
-            "IconColor": -14473430
-        },
-        {
-            "Name": "Feedback",
-            "URL": "https://www.google.com/",
-            "IconName": "Forums",
-            "IconColor": -14473430
-        },
-        {
             "Name": "Discord",
-            "URL": "https://www.google.com/",
+            "URL": "https://discord.gg/EW9ds9Vq8Y",
             "IconName": "Discord",
             "IconColor": -9270822
         },
         {
-            "Name": "Patreon",
-            "URL": "https://www.patreon.com/dayzexpansion",
-            "IconName": "Patreon",
-            "IconColor": -432044
-        },
-        {
-            "Name": "Steam",
-            "URL": "https://steamcommunity.com/sharedfiles/filedetails/?id=2116151222",
-            "IconName": "Steam",
-            "IconColor": -14006434
-        },
-        {
-            "Name": "Reddit",
-            "URL": "https://www.reddit.com/r/ExpansionProject/",
-            "IconName": "Reddit",
-            "IconColor": -12386303
-        },
-        {
             "Name": "GitHub",
-            "URL": "https://github.com/salutesh/DayZ-Expansion-Scripts/wiki",
+            "URL": "https://sk3tch-dev-ux.github.io/operation-insight/",
             "IconName": "GitHub",
             "IconColor": -16777216
         },
         {
-            "Name": "YouTube",
-            "URL": "https://www.youtube.com/channel/UCZNgSvIEWfru963tQZOAVJg",
-            "IconName": "YouTube",
-            "IconColor": -65536
-        },
-        {
-            "Name": "Twitter",
-            "URL": "https://twitter.com/DayZExpansion",
-            "IconName": "Twitter",
-            "IconColor": -14835214
+            "Name": "Configs",
+            "URL": "https://github.com/Sk3tch-Dev-Ux/operation-insight",
+            "IconName": "Homepage",
+            "IconColor": -14473430
         }
     ],
     "Descriptions": [
         {
-            "CategoryName": "General Info",
+            "CategoryName": "Operation Insight",
             "Descriptions": [
                 {
-                    "DescriptionText": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+                    "DescriptionText": "Vanilla+ 1PP PVP on Chernarus. Survive first. One Trading Post safezone. Raid weekends Friday 18:00 through Monday 06:00 server time."
                 },
                 {
-                    "DescriptionText": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
-                },
-                {
-                    "DescriptionText": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+                    "DescriptionText": "Coastal spawns: Svetloyarsk, Berezino, Elektro, Chernogorsk. World loot is lean — military ammo and guns are contested, not carpeted. The Post is a relief valve, not an MMO mall."
                 }
             ]
         },
         {
-            "CategoryName": "Mod Info",
+            "CategoryName": "Trading Post",
             "Descriptions": [
                 {
-                    "DescriptionText": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+                    "DescriptionText": "Custom Insight Trading Post with clothing, weapons, building/tools, consumables and fishing, vehicles and parts, and medical. Buybacks are thin. Bring cash from scavenging, fishing, and Insight jobs."
                 },
                 {
-                    "DescriptionText": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+                    "DescriptionText": "ATM deposit cap is limited. No personal storage mall. No aircraft trader."
+                }
+            ]
+        },
+        {
+            "CategoryName": "Insight Jobs",
+            "Descriptions": [
+                {
+                    "DescriptionText": "Talk to Mira at Green Mountain for Dead Drop and the Insight story chain. Board dailies unlock after Eyes Only. Green Mountain is NOT safe."
                 },
                 {
-                    "DescriptionText": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+                    "DescriptionText": "Scarce contested caches can appear near NWAF / VMC when the server is alive. Bring a crew."
                 }
             ]
         }

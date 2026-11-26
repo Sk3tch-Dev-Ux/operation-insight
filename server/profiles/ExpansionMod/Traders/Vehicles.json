@@ -1,6 +1,6 @@
 {
     "m_Version":  13,
-    "DisplayName":  "#STR_EXPANSION_MARKET_TRADER_VEHICLES",
+    "DisplayName":  "Vehicles",
     "MinRequiredReputation":  0,
     "MaxRequiredReputation":  2147483647,
     "RequiredFaction":  "",
@@ -13,9 +13,16 @@
     "DisplayCurrencyName":  "",
     "UseCategoryOrder":  0,
     "Categories":  [
-
+                       "Cars",
+                       "Vehicle_Parts"
                    ],
     "Items":  {
-
+                  "tirerepairkit":  1,
+                  "sparkplug":  1,
+                  "glowplug":  1,
+                  "carbattery":  1,
+                  "truckbattery":  1,
+                  "canistergasoline":  1,
+                  "carradiator":  1
               }
 }

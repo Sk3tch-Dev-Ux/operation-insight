@@ -100,7 +100,7 @@
     "UseExpansionMainMenuLogo": 1,
     "UseExpansionMainMenuIcons": 1,
     "UseExpansionMainMenuIntroScene": 1,
-    "UseNewsFeedInGameMenu": 1,
+    "UseNewsFeedInGameMenu": 0,
     "UseHUDColors": 0,
     "HUDColors": {
         "StaminaBarColor": "FFFFFFFF",

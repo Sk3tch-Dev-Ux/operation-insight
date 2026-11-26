@@ -1,6 +1,6 @@
 {
     "m_Version":  13,
-    "DisplayName":  "#STR_EXPANSION_MARKET_TRADER_CONSUMABLES",
+    "DisplayName":  "Consumables & Fishing",
     "MinRequiredReputation":  0,
     "MaxRequiredReputation":  2147483647,
     "RequiredFaction":  "",
@@ -16,9 +16,13 @@
                        "Drinks",
                        "Food",
                        "Fruit_And_Vegetables",
-                       "Fish"
+                       "Fish",
+                       "Meat",
+                       "Fishing"
                    ],
     "Items":  {
-
+                  "mackerel":  1,
+                  "carp":  1,
+                  "sardines":  1
               }
 }
